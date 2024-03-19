@@ -1,0 +1,231 @@
+# <!=Copyright (C) 2022 Rara Theme
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Construction Builders 1.0.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/theme/construction-builders\n"
+"POT-Creation-Date: 2022-09-08 06:53:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: footer.php:53
+msgid "&copy; Copyright "
+msgstr ""
+
+#: footer.php:53
+msgid "Y"
+msgstr ""
+
+#: footer.php:58
+msgid "Construction Builders | Developed By "
+msgstr ""
+
+#: footer.php:60
+msgid "Rara Themes"
+msgstr ""
+
+#: footer.php:62
+msgid "Powered by "
+msgstr ""
+
+#: footer.php:63
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:63
+msgid "WordPress"
+msgstr ""
+
+#: inc/child-functions.php:24
+msgid "Enable header search"
+msgstr ""
+
+#: inc/child-functions.php:45
+msgid "Phone Label"
+msgstr ""
+
+#: inc/child-functions.php:71
+msgid "Email Address"
+msgstr ""
+
+#: inc/child-functions.php:80 inc/child-functions.php:198
+#: inc/parent-functions.php:167
+msgid "Get A Quote"
+msgstr ""
+
+#: inc/child-functions.php:91
+msgid "Header Button Text"
+msgstr ""
+
+#: inc/child-functions.php:115
+msgid "Button link for Get A Quote"
+msgstr ""
+
+#: inc/child-functions.php:116
+msgid "You can find this in the end of navigation menu.."
+msgstr ""
+
+#: inc/child-functions.php:133
+msgid "Enable Social Links"
+msgstr ""
+
+#: inc/child-functions.php:134
+msgid "Enable to show social links at header."
+msgstr ""
+
+#: inc/child-functions.php:159
+msgid "Social Links"
+msgstr ""
+
+#: inc/child-functions.php:163
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: inc/child-functions.php:164
+msgid "Example: fa-bell"
+msgstr ""
+
+#: inc/child-functions.php:168
+msgid "Link"
+msgstr ""
+
+#: inc/child-functions.php:169
+msgid "Example: http://facebook.com"
+msgstr ""
+
+#: inc/child-functions.php:174
+msgid "links"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:75
+msgid "row"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:83
+msgid "Add new %s"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:239
+msgid "Limit: %s rows"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:394
+#: inc/custom-controls/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:404
+#: inc/custom-controls/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:405
+#: inc/custom-controls/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:405
+#: inc/custom-controls/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:430
+#: inc/custom-controls/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:441
+#: inc/custom-controls/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: inc/custom-controls/repeater/class-control-repeater.php:441
+#: inc/custom-controls/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: inc/parent-functions.php:132
+msgid "Mobile"
+msgstr ""
+
+#: inc/parent-functions.php:177
+msgid "Demo and Documentation"
+msgstr ""
+
+#: inc/parent-functions.php:187
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/parent-functions.php:187 inc/parent-functions.php:188
+#: inc/parent-functions.php:189 inc/parent-functions.php:190
+#: inc/parent-functions.php:191
+msgid "here"
+msgstr ""
+
+#: inc/parent-functions.php:188
+msgid "Theme Demo"
+msgstr ""
+
+#: inc/parent-functions.php:189
+msgid "Theme Info"
+msgstr ""
+
+#: inc/parent-functions.php:190
+msgid "Support Ticket"
+msgstr ""
+
+#: inc/parent-functions.php:191
+msgid "Rate this theme"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Construction Builders"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://rarathemes.com/wordpress-themes/construction-builders/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Construction Builders is a lead-optimized free WordPress theme for creating "
+"professional websites. This SEO and speed optimized theme is best suited to "
+"create a landing page for construction & building companies, architects, "
+"plumbers, packers and movers, landscapers, or any construction-related "
+"businesses. The theme includes several sections to display your services "
+"and introduce your business to engage your visitors. This theme is "
+"cross-browser compatible, mobile responsive, translation ready and supports "
+"RTL scripts. Check the demo at "
+"https://rarathemes.com/previews/?theme=construction-builders, documentation "
+"at https://docs.rarathemes.com/docs/construction-builders/, and get support "
+"at https://rarathemes.com/support-ticket/."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://rarathemes.com/"
+msgstr ""

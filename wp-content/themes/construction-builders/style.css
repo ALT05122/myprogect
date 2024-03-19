@@ -1,0 +1,393 @@
+/*
+Theme Name:Construction Builders
+Theme URI: https://rarathemes.com/wordpress-themes/construction-builders/
+Template: construction-landing-page  
+Author: Rara Theme
+Author URI: https://rarathemes.com/
+Description: Construction Builders is a lead-optimized free WordPress theme for creating professional websites. This SEO and speed optimized theme is best suited to create a landing page for construction & building companies, architects, plumbers, packers and movers, landscapers, or any construction-related businesses. The theme includes several sections to display your services and introduce your business to engage your visitors. This theme is cross-browser compatible, mobile responsive, translation ready and supports RTL scripts. Check the demo at https://rarathemes.com/previews/?theme=construction-builders, documentation at https://docs.rarathemes.com/docs/construction-builders/, and get support at https://rarathemes.com/support-ticket/.
+Requires at least: 4.7
+Requires PHP: 5.6
+Tested up to: 6.0
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: construction-builders
+Tags: blog,one-column,two-columns,right-sidebar,left-sidebar,footer-widgets,custom-background,custom-header,custom-menu,custom-logo,featured-images,threaded-comments,full-width-template,rtl-language-support,translation-ready,theme-options,photography,e-commerce
+*/
+
+
+/*header-7 style*/
+.site-header.header-7 {
+    background: none;
+    width: 100%;
+    padding: 0;
+}
+
+.no-banner .site-header.header-7 {
+    background: #272727;
+}
+
+.site-header.header-7 .right-panel {
+    float: right;
+    padding: 0;
+}
+
+.site-header.header-7 .right-panel .top {
+    border-bottom: 1px solid #424a58;
+    padding: 20px 0;
+}
+
+.site-header.header-7 .right-panel .top:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.site-header.header-7 .form-holder {
+    float: right;
+    border-left: 1px solid #d8d8d8;
+    font-size: 16px;
+    line-height: 16px;
+    padding-left: 16px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.site-header.header-7 .social-networks {
+    float: right;
+    margin-top: 0;
+}
+
+.site-header.header-7 .form-holder form {
+    display: none;
+}
+
+.site-header.header-7 .social-networks {
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 22px;
+    float: right;
+    margin: 15px 0 0;
+}
+
+.site-header.header-7 .social-networks li {
+    float: left;
+    margin-left: 20px;
+}
+
+.site-header.header-7 .social-networks li a {
+    color: #efefef;
+}
+
+.site-header.header-7 .social-networks li a:hover,
+.site-header.header-7 .social-networks li a:focus {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.site-header.header-7 .contact-info {
+    float: left;
+    color: #d1d1d1;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+.site-header.header-7 .contact-info svg {
+    margin-right: 8px;
+}
+
+.site-header.header-7 .contact-info span {
+    margin-right: 36px;
+}
+
+.site-header.header-7 .contact-info span a {
+    text-transform: none;
+    color: #d1d1d1;
+}
+
+.site-header.header-7 .contact-info span a:hover {
+    color: #f3b266;
+    text-decoration: none;
+}
+
+.site-header.header-7 .main-navigation {
+    margin: 0;
+}
+
+.site-header.header-7 .main-navigation a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.site-header.header-7 .main-navigation a:hover,
+.site-header.header-7 .main-navigation a:focus,
+.site-header.header-7 .main-navigation a:active {
+    color: var(--primary-color);
+}
+
+.site-header.header-7 .main-navigation ul li {
+    margin-left: 0;
+}
+
+.site-header.header-7 .main-navigation ul li:hover>a {
+    color: var(--primary-color);
+}
+
+.site-header.header-7 .main-navigation ul li a {
+    padding: 14px 18px;
+}
+
+.site-header.header-7 .site-branding {
+    margin: 40px 0 0;
+    padding-right: 20px;
+}
+
+.site-header.header-7 .site-branding .site-title {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.site-header.header-7 .form-holder {
+    position: relative;
+}
+
+.site-header.header-7 .form-holder svg {
+    cursor: pointer;
+}
+
+.site-header.header-7 .form-holder form {
+    display: none;
+    position: absolute;
+    width: 300px;
+    z-index: 9999;
+    right: 0;
+    top: 40px;
+    height: 46px;
+    background: #1d1d1d;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+
+.site-header.header-7 .form-holder form:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.site-header.header-7 .form-holder form input[type="search"] {
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding: 0 10px;
+    background: none;
+    border-radius: 0;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.site-header.header-7 .right-panel .top {
+    border-bottom: 1px solid rgba(244, 243, 241, 0.2);
+}
+
+.site-header.header-7 .request-link {
+    color: #fff;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 16px 32px;
+}
+
+.site-header.header-7 .request-link:hover {
+    color: #fff;
+    background: transparent;
+    text-decoration: none;
+    transition: .2s all ease-in;
+}
+
+.site-header.header-7 .main-navigation {
+    margin: 0;
+    padding: 15px 0;
+}
+
+body .main-navigation ul.menu li.menu-item-has-children::before {
+    top: 18px;
+    right: 1px;
+}
+
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
+  color: var(--primary-color);
+}
+
+.site-header.header-7 .search-btn {
+    background: none;
+}
+
+/* Accessibility fixes */
+.btn-form-close {
+    padding: 0;
+    position: absolute;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 32 32'%3E%3Cpath d='M32,2.3L29.7,0L16,13.7L2.3,0L0,2.3L13.7,16L0,29.7L2.3,32L16,18.3L29.7,32l2.3-2.3L18.3,16L32,2.3z'/%3E%3C/svg%3E");
+    top: 53px;
+    right: 64px;
+    width: 15px;
+    height: 15px;
+    padding: 0px;
+    border: 0; 
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    display: none;
+    z-index: 11111;
+    opacity: 0.8;
+}  
+.head-search-form.active .btn-form-close {
+    display: block;
+ }
+.btn-form-close:hover,
+.btn-form-close:focus {
+    opacity: 1;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 32 32'%3E%3Cpath d='M32,2.3L29.7,0L16,13.7L2.3,0L0,2.3L13.7,16L0,29.7L2.3,32L16,18.3L29.7,32l2.3-2.3L18.3,16L32,2.3z'/%3E%3C/svg%3E");
+  
+}
+
+.widget .search-form input[type="submit"] {
+    width: 48px;
+    height: 48px;
+}
+
+.widget .search-form {
+    display: flex;
+    flex: auto;
+    flex-wrap: nowrap;
+    max-width: 100%;
+}
+
+.widget .search-form input[type="submit"] {
+    padding: 0;
+}
+
+#primary .post .entry-footer .btn-readmore,
+.search #primary .page .entry-footer .btn-readmore {
+    background: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+#primary .post .entry-footer .btn-readmore:hover,
+.search #primary .page .entry-footer .btn-readmore:hover {
+    background: none;
+    color: var(--secondary-color);
+}
+
+#primary .post .entry-meta {
+    color: var(--font-color);
+}
+
+#primary .post .entry-meta a {
+    color: #999;
+}
+
+.site-header .site-branding .site-title {
+    font-family: var(--secondary-font);
+}
+
+.site-header.header-7 .right-panel .top{
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+
+@media only screen and (max-width: 991px) {
+    .mobile-menu .primary-navigation .phone-holder,
+    .mobile-menu .primary-navigation .email-holder {
+        display: block;
+        color: #000;
+        border-top: 1px solid #ebebeb;
+        font-size: 15px;
+        padding: 15px 32px;
+        -webkit-transition: ease 0.2s;
+        -moz-transition: ease 0.2s;
+        transition: ease 0.2s;
+    }
+}
+
+.banner .row .col .text ul {
+    text-align: left;
+}
+
+.site-header.header-7 .form-holder form input[type="submit"] {
+    width: 15%;
+    float: left;
+    height: 100%;
+    background: url(images/icon-search.png) no-repeat 20px 13px;
+    text-indent: -9999px;
+    box-shadow: none;
+    border: 0;
+    border-left: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.theme-style-modern .widget .search-form input[type="submit"] {
+    width: 48px;
+    height: 48px;
+    background: var(--primary-color) url(images/icon-search.png) no-repeat 45% 50%;
+}
+
+.header-7 .right-panel .contact-info span.header-phone .phone-label {
+    margin-right: 0px;
+}
+
+.site-header.header-7 .right-panel+.main-navigation {
+    width: 100%;
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .site-branding .site-title a {
+    color: #ffffff;
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .site-branding .site-description,
+body:not(.home).theme-style-modern .site-header.header-7 .main-navigation a {
+    color: #ffffff;
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .main-navigation a:hover {
+    color: var(--primary-color);
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .main-navigation ul ul a {
+    color: #fff;
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .tel-link {
+    background: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+body:not(.home).theme-style-modern .site-header.header-7 .tel-link:hover {
+    color: #fff;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.site-header.header-7 .contact-info span:first-child svg {
+    vertical-align: middle;
+    width: 1.2em;
+}
+
+/* fixed */
+
+.site-header.header-7 .main-navigation a:hover, 
+.site-header.header-7 .main-navigation a:focus, 
+.site-header.header-7 .main-navigation a:active {
+    color: #fff;
+}
